@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Dados do paciente</h1>
+    </header>
+    <main>
+        <form action="" method="get">
+            <fieldset>
+                <label>Nome do paciente:</label>
+                <input type="text" name="txtnome" id="txtnome" required autofocus>
+            <br><br>      
+            <label>Registro hospitalar:</label>
+            <input type="text" name="txtrh" id="txtrh" required>
+            <br><br>
+
+            <label>Data de inclusão:</label>
+            <input type="date" name="txtdata" id="txtdata" required>
+            <br><br>
+
+            <label>Data de nascimento:</label>
+            <input type="date" name="txtdn" id="txtdn" required>
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="txtemail" id="txtemail" required>
+            <br><br>    
+
+            <label>Gênero:</label>
+            <br>
+            <input type="radio" name="est_a" id="e1" value="Feminino">
+            <label for="e1">Feminino</label><br>
+            
+
+            <input type="radio" name="est_a" id="e2" value="Masculino">
+            <label for="e2">Masculino</label><br><br>
+
+            <label>Raça delarada:</label>
+            <select name="cid" id="cid">
+                <option value="" hidden>Selecione um item</option>
+                <option value="Branca">Branca</option>
+                <option value="Negra">Negra</option>
+                <option value="Parda">Parda</option>
+                <option value="Amarela">Amarela</option>
+                <option value="Idigena">Indigena</option>
+                <option value="Desconhecida">Desconhecida</option>
+                </select><br><br>
+                
+                <label>Como ficou sabendo do estudo:</label><br>
+                <input type="radio" name="est_b" id="e3" value="Convidado">
+                <label for="e3">Convidado</label><br>
+                
+                <input type="radio" name="est_b" id="e4" value="Internet">
+                <label for="e4">Internet</label><br>
+
+                <input type="radio" name="est_b" id="e5" value="Amigos">
+                <label for="e5">Amigos</label><br>
+                
+                <input type="radio" name="est_b" id="e6" value="Familiares">
+                <label for="e6">Familiares</label><br>
+
+                <input type="radio" name="est_b" id="e7" value="Outros">
+                <label for="e7">Outros</label><br>
+
+                <br><button>Enviar</button>
+
+
+
+        </body>
+</html>
