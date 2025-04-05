@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: white;
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    
+         
+    }
+.h1{
+    background-color: rgb(26, 52, 63);
+    color: white;
+    padding: 15px;
+
+}
+
+.p{
+    text-align: center;
+    
+}
+
+figure{
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #000000;
+    padding: 11px;
+    margin: 15px auto;
+    width: 300px;
+    height: auto;
+    padding: 10px;    
+    }
+
+figure img{
+    width: 300px; 
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    padding: 5px;
+}
+
+.footer{
+    background-color: rgb(52, 119, 116);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}

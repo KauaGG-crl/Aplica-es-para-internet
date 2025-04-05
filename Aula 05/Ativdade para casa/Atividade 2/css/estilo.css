@@ -1,0 +1,95 @@
+figure{
+    width: 300px;
+    box-shadow: 5px 5px 7px #000;
+    border-radius: 20px 20px 20px 20px ;
+    margin: auto;
+}
+
+.img1{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+h1, .dist{
+    display: inline-block;
+    width: 49%;
+}
+
+h1{
+    font-family: Comic Sans MS;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dist img{
+    vertical-align: middle;
+}
+
+.dist{
+    text-align: right;
+}
+
+
+.estrelas{
+    display: block;
+}
+
+.star{
+    width: 130px;
+}
+
+figcaption{
+    padding: 10px;
+}
+
+h3{
+    font-family: Comic Sans MS;
+}
+
+p{
+    text-align: left;
+    font-size: 18px;
+    
+}
+
+hr{
+    border-top: 1px solid #000;
+    width: 95%;
+    
+    
+}
+.dias{
+    text-align: center;
+    font-family: Comic Sans MS;
+    margin: 15px;
+}
+
+.clock{
+    width: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+.horario{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.horario *{
+    display: inline-block;
+    line-height: 30px;
+    font-family: comic sans ms;
+    width: 65px;
+}
+
+.reserva{
+    margin: 10px;
+    text-align: center;
+    font-size: 28px;
+    color: rgba(100, 148, 237, 0.777);
+    font-family: Comic Sans MS;
+}
